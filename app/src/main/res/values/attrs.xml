@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullDownView">
+        <attr name="pullDownTextColor" format="color" />
+        <attr name="pullDownSelectTextColor" format="color" />
+        <attr name="pullDownArrow" format="integer" />
+        <attr name="pullDownSelectArrow" format="integer" />
+    </declare-styleable>
+</resources>

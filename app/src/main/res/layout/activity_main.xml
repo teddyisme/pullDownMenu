@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lixs.com.pulldownmenu.MainActivity">
+
+    <lixs.com.pulldownmenulib.view.PullDownView
+        android:id="@+id/pullDownView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFACACAC"
+        app:pullDownArrow="@drawable/filter_down"
+        app:pullDownSelectTextColor="@color/colorAccent"
+        app:pullDownSelectArrow="@drawable/filter_down_select"
+        app:pullDownTextColor="@color/color333" />
+
+</LinearLayout>
